@@ -1,0 +1,41 @@
+{
+  "schema": "matrix.architect.standalone.qualification.v1",
+  "scientific_revision": "d5ccb456addd65d80fbd10b693c7eaa7eca001d9",
+  "host_role": "Mac Studio compute host",
+  "python": "3.12.13",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "clean_venv": true,
+  "pip_check": "No broken requirements found",
+  "cli_help": true,
+  "tests": {
+    "passed": 5,
+    "deselected": 109,
+    "seconds": 1.78,
+    "command": "python -m pytest -q tests/test_matrix_architect.py -k \\\"exppe_analytic_derivatives or double_exponential_conversion or morse_analytic_derivatives or native_sparse_zaff_fit or public_facade_is_complete or compiler_compares_pic_with_local_sonic\\\""
+  },
+  "versions": {
+    "matrix-apoc": "0.1.0rc8",
+    "matrix-architect": "0.1.0rc8",
+    "matrix-chem": "0.1.0rc8",
+    "matrix-core": "0.1.0rc8",
+    "matrix-engines": "0.1.0rc8",
+    "matrix-epoc": "0.1.0rc8",
+    "matrix-fragments": "0.1.0rc8",
+    "matrix-gaussian": "0.1.0rc8",
+    "matrix-gf": "0.1.0rc8",
+    "matrix-gfn2": "0.1.0rc8",
+    "matrix-link": "0.1.0rc8",
+    "matrix-numerics": "0.1.0rc8",
+    "matrix-oracle": "0.1.0rc8",
+    "matrix-pyscf": "0.1.0rc8",
+    "matrix-qm": "0.1.0rc8",
+    "matrix-rovib": "0.1.0rc8",
+    "matrix-smith": "0.1.0rc8",
+    "matrix-switch": "0.1.0rc8",
+    "matrix-zaff": "0.1.0rc8",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "numba": "0.62.1",
+    "autograd": "1.9.1"
+  }
+}

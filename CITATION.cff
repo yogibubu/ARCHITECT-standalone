@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the ARCHITECT/ZAFF manuscript when using this software."
+title: "ARCHITECT standalone: Zoomable Asymptotically Correct Force Fields"
+version: "0.1.0rc8"
+date-released: 2026-11-05
+authors:
+  - family-names: Barone
+    given-names: Vincenzo
+repository-code: "https://github.com/yogibubu/ARCHITECT-standalone"
+license: BSD-3-Clause

@@ -1,0 +1,45 @@
+usage: architect [-h]
+                 {prune-couplings,zaff4,zaff4-nonlocal,backend,library,build,apoc,inspect,parameters,zoom,validate,evaluate,acquire-anharmonic,fit-surface,fit-property-surface,uff-compile,initial-provider,uff-point}
+                 ...
+
+ARCHITECT constructor and runtime for ZAFF force fields
+
+positional arguments:
+  {prune-couplings,zaff4,zaff4-nonlocal,backend,library,build,apoc,inspect,parameters,zoom,validate,evaluate,acquire-anharmonic,fit-surface,fit-property-surface,uff-compile,initial-provider,uff-point}
+    prune-couplings     Remove insignificant native coupling terms under
+                        observable controls
+    zaff4               Build a native ZAFF4 local candidate including four-
+                        primitive products
+    zaff4-nonlocal      Fit local derivatives and measured nonlocal E/G/H
+                        jointly
+    backend             Report CPU/GPU/Neural Engine backends and runtime
+                        policies
+    library             Create, populate, inspect or query the ZAFF force-
+                        field library
+    build               Compile a ZAFF model after a PIC/local-SONIC Pareto
+                        comparison
+    apoc                Run APOC directly and attach its CM5/Mayer contract
+                        before ZAFF construction
+    inspect             Validate and summarize a force-field model
+    parameters          Write the final ZAFF parameters as a human-readable
+                        report
+    zoom                Compare the quantitative ZAFF zoom levels
+    validate            Finite-difference check of the public analytic E/G/H
+                        runtime
+    evaluate            Calculate force-field E/G/H
+    acquire-anharmonic  Acquire 0,+/-h,+/-2h SONIC gradients and planar
+                        double-well points
+    fit-surface         Solve a weighted linear surface fit with exact
+                        constraints
+    fit-property-surface
+                        Fit scalar, vector or tensor property surfaces with
+                        exact constraints
+    uff-compile         Compile an ARCHITECT UFF model from an ORACLE-enriched
+                        geometry
+    initial-provider    Resolve an ARCHITECT-owned initial-geometry provider
+                        as JSON
+    uff-point           Evaluate a compiled UFF model through the LINK point-
+                        result contract
+
+options:
+  -h, --help            show this help message and exit

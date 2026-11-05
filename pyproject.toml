@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "architect-standalone"
+version = "0.1.0rc8"
+description = "Standalone ARCHITECT construction and evaluation of ZAFF force fields"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+dependencies = ["matrix-architect==0.1.0rc8"]
+
+[tool.setuptools]
+packages = []
